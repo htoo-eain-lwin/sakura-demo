@@ -265,7 +265,7 @@ h6,
 }
 
 .fact-item:hover .fact-icon {
-    background: var(--primary);
+    background: var(--light);
 }
 
 .fact-item .fact-icon i {
@@ -393,7 +393,7 @@ h6,
 
 .team-item:hover::after {
     height: 100%;
-    background: var(--primary);
+    background: var(--light);
 }
 
 .team-item .team-social {
