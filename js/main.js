@@ -78,4 +78,18 @@
         dotsData: true,
     });
 
+    // Lightbox
+
+
+    const options = {
+        keyboard: true,
+        size: 'fullscreen'
+    };
+
+    document.querySelectorAll('.lightbox').forEach((el) => el.addEventListener('click', (e) => {
+        e.preventDefault();
+        const lightbox = new Lightbox(el, options);
+        lightbox.show();
+    }));
+
 })(jQuery);
