@@ -1,6 +1,6 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4E3B31;
+    --primary: #252525;
     --light: #F8F8F8;
     --dark: #252525;
 }
@@ -90,7 +90,6 @@ h6,
 }
 
 .btn-outline-body {
-    color: var(--primary);
     border-color: #777777;
 }
 
@@ -112,7 +111,7 @@ h6,
 }
 
 .navbar .navbar-nav .nav-link {
-    margin-right: 30px;
+    margin-right: 25px;
     padding: 30px 0;
     color: var(--dark);
     font-weight: 500;
@@ -406,13 +405,13 @@ h6,
 .team-item .team-social .btn {
     display: inline-flex;
     margin: 0 2px;
-    color: var(--primary);
-    background: var(--light);
+    color: var(--light);
+    background: var(--dark);
 }
 
 .team-item .team-social .btn:hover {
     color: #FFFFFF;
-    background: var(--primary);
+    background: var(--dark);
 }
 
 
@@ -524,12 +523,12 @@ h6,
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: var(--primary);
+    color: var(--light);
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
+    color: var(--light);
     letter-spacing: 1px;
     box-shadow: none;
 }
@@ -549,5 +548,5 @@ h6,
 }
 
 .footer .copyright a:hover {
-    color: var(--primary);
+    color: var(--light);
 }
