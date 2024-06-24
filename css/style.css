@@ -441,7 +441,7 @@ h6,
     background: var(--primary);
 }
 
-.project .nav .nav-link.active h3 {
+.project .nav .nav-link.active h5 {
     color: #FFFFFF !important;
 }
 
