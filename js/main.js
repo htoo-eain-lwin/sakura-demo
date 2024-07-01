@@ -59,6 +59,7 @@
     $(".header-carousel").owlCarousel({
         autoplay: true,
         smartSpeed: 1000,
+        autoplayTimeout: 5000,
         loop: true,
         nav: false,
         dots: true,
