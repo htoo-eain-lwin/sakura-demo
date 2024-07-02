@@ -308,7 +308,7 @@ h6,
 .section-title {
     color: var(--primary);
     font-weight: 600;
-    letter-spacing: 5px;
+    letter-spacing: 2px;
     text-transform: uppercase;
 }
 
